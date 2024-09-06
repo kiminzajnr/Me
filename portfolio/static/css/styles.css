@@ -50,7 +50,6 @@ body {
     justify-content: center;
     margin-bottom: 1.5rem;
     font-size: 1.5rem;
-    text-align: center;
 }
 
 .contact__details {
@@ -101,6 +100,7 @@ body {
 
 .project-card__image {
     max-width: 100%;
+    border-radius: 10px;
     margin-bottom: 1rem;
     transition: transform 0.2s ease-in-out;
 }
@@ -186,7 +186,11 @@ body {
     margin-bottom: 1rem;
 }
 
-.project__meta-group, .cta {
+.cta {
+    margin-bottom: 1rem;
+}
+
+.project__meta-group, .cta, .cta-git {
     padding: 1rem;
     background-color: #d4eafa;
     border-radius: 6px;
@@ -201,7 +205,16 @@ body {
     text-decoration: none;
 }
 
-.cta:hover {
+.cta-git {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #1c2023;
+    text-decoration: none;
+}
+
+.cta:hover, .cta-git:hover {
     text-decoration: underline;
 }
 
