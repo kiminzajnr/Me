@@ -11,7 +11,8 @@ projects = [
         "hero": "img/habit-tracking-hero.png",
         "categories": ["python", "web"],
         "slug": "habit-tracking",
-        "prod": "https://udemy.com",
+        "prod": "https://habit-tracker.discoverwitherick.tech/",
+        "repo": "https://github.com/kiminzajnr/Habit_Tracker",
     },
     {
         "name": "Personal finance tracking app with React",
