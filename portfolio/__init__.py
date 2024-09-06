@@ -26,7 +26,7 @@ projects = [
         "hero": "img/rest-api-docs.png",
         "categories": ["writing"],
         "slug": "api-docs",
-    },
+    }
 ]
 
 
