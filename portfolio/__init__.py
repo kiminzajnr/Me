@@ -5,6 +5,15 @@ app = Flask(__name__)
 
 
 projects = [
+     {
+        "name": "Coding School REST API with Flask, Docker, and SQLAlchemy",
+        "thumb": "img/personal-finance.png",
+        "hero": "img/personal-finance.png",
+        "categories": ["Python", "REST API"],
+        "slug": "coding-school",
+        "prod": "https://coding-school-api.discoverwitherick.tech/swagger-ui",
+        "repo": "https://github.com/kiminzajnr/coding-school-api",
+    },
     {
         "name": "Habit tracking app with Python and MongoDB",
         "thumb": "img/habit-tracking.png",
@@ -13,13 +22,6 @@ projects = [
         "slug": "habit-tracking",
         "prod": "https://habit-tracker.discoverwitherick.tech/",
         "repo": "https://github.com/kiminzajnr/Habit_Tracker",
-    },
-    {
-        "name": "Personal finance tracking app with React",
-        "thumb": "img/personal-finance.png",
-        "hero": "img/personal-finance.png",
-        "categories": ["react", "javascript"],
-        "slug": "personal-finance",
     },
     {
         "name": "REST API Documentation with Postman and Swagger",
