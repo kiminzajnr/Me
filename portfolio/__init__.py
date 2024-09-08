@@ -24,11 +24,13 @@ projects = [
         "repo": "https://github.com/kiminzajnr/Habit_Tracker",
     },
     {
-        "name": "REST API Documentation with Postman and Swagger",
+        "name": "REST API with Flask, Docker, and SQLAlchemy",
         "thumb": "img/rest-api-docs.png",
         "hero": "img/rest-api-docs.png",
         "categories": ["writing"],
-        "slug": "api-docs",
+        "slug": "know-us-api",
+         "prod": "https://know-us-rest-api.discoverwitherick.tech/swagger-ui",
+        "repo": "https://github.com/kiminzajnr/REST-API",
     }
 ]
 
