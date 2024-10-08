@@ -27,7 +27,7 @@ projects = [
         "name": "REST API with Flask, Docker, and SQLAlchemy",
         "thumb": "img/rest-api-docs.png",
         "hero": "img/rest-api-docs.png",
-        "categories": ["writing"],
+        "categories": ["Python", "REST API"],
         "slug": "know-us-api",
          "prod": "https://know-us-rest-api.discoverwitherick.tech/swagger-ui",
         "repo": "https://github.com/kiminzajnr/REST-API",
