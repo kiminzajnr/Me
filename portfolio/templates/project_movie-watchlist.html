@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% block content %}
+    <main class="main main--project">
+        <div>
+            <!-- <img
+                class="hero"
+                src="{{ url_for('static', filename=project['hero']) }}"
+                alt="A hand holding a pen, about to write something in a project planner."
+            /> -->
+
+            <article class="project">
+                <article class="project__content">
+                    <h2 class="project__heading">{{ project['name'] }}</h2>
+
+                    <p>
+                        This project gave me the opportunity to work with Flask, HTML, CSS, and MongoDB.
+                    </p>
+                    <p>
+                        By building this project, I gained valuable skills in designing, developing, and deploying full-stack web applications using Flask, Python, MongoDB, HTML, and CSS.
+                    </p>
+                </article>
+
+                <section>
+                    <article class="project__meta-group">
+                        <h3 class="project__heading project__heading--meta">Technologies used</h3>
+
+                        <ul class="technology-list">
+                            <li class="technology-list__item">Python</li>
+                            <li class="technology-list__item">MongoDB</li>
+                            <li class="technology-list__item">HTML</li>
+                            <li class="technology-list__item">CSS</li>
+                        </ul>
+                    </article>
+                    <!-- <a class="cta" href="{{ project['prod'] }}" target="_blank">
+                        <img class="cta__icon" src="{{ url_for('static', filename='img/pointer.svg') }}">
+                        View in production
+                    </a> -->
+                    <a class="cta-git" href="{{ project['repo'] }} " target="_blank">
+                        <img class="cta__icon" src="{{ url_for('static', filename='img/pointer.svg') }}">
+                        View source code
+                    </a>
+                </section>
+            </article>
+        </div>
+    </main>
+{% endblock %}
