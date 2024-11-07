@@ -24,14 +24,23 @@ projects = [
         "repo": "https://github.com/kiminzajnr/Habit_Tracker",
     },
     {
-        "name": "REST API with Flask, Docker, and SQLAlchemy",
+        "name": "Movie Watchlist with Python and MongoDB",
         "thumb": "img/rest-api-docs.png",
-        "hero": "img/rest-api-docs.png",
-        "categories": ["Python", "REST API"],
-        "slug": "know-us-api",
-         "prod": "https://know-us-rest-api.discoverwitherick.tech/swagger-ui",
-        "repo": "https://github.com/kiminzajnr/REST-API",
-    }
+        "hero": "img/habit-tracking-hero.png",
+        "categories": ["python", "web", "Databases"],
+        "slug": "movie-watchlist",
+        "prod": "https://habit-tracker.discoverwitherick.tech/",
+        "repo": "https://github.com/kiminzajnr/Movie-Watchlist",
+    },
+    # {
+    #     "name": "REST API with Flask, Docker, and SQLAlchemy",
+    #     "thumb": "img/rest-api-docs.png",
+    #     "hero": "img/rest-api-docs.png",
+    #     "categories": ["Python", "REST API"],
+    #     "slug": "know-us-api",
+    #      "prod": "https://know-us-rest-api.discoverwitherick.tech/swagger-ui",
+    #     "repo": "https://github.com/kiminzajnr/REST-API",
+    # }
 ]
 
 
