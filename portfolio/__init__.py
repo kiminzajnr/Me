@@ -20,7 +20,7 @@ projects = [
         "hero": "img/habit-tracking-hero.png",
         "categories": ["python", "web", "Databases"],
         "slug": "movie-watchlist",
-        "prod": "https://habit-tracker.discoverwitherick.tech/",
+        "prod": "https://movie-watchlist.discoverwitherick.tech/",
         "repo": "https://github.com/kiminzajnr/Movie-Watchlist",
     },
     {
