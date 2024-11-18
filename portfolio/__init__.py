@@ -15,15 +15,6 @@ projects = [
         "repo": "https://github.com/kiminzajnr/coding-school-api",
     },
     {
-        "name": "Habit tracking app with Python and MongoDB",
-        "thumb": "img/habit-tracking.png",
-        "hero": "img/habit-tracking-hero.png",
-        "categories": ["python", "web"],
-        "slug": "habit-tracking",
-        "prod": "https://habit-tracker.discoverwitherick.tech/",
-        "repo": "https://github.com/kiminzajnr/Habit_Tracker",
-    },
-    {
         "name": "Movie Watchlist with Python and MongoDB",
         "thumb": "img/rest-api-docs.png",
         "hero": "img/habit-tracking-hero.png",
@@ -32,6 +23,15 @@ projects = [
         "prod": "https://habit-tracker.discoverwitherick.tech/",
         "repo": "https://github.com/kiminzajnr/Movie-Watchlist",
     },
+    {
+        "name": "Habit tracking app with Python and MongoDB",
+        "thumb": "img/habit-tracking.png",
+        "hero": "img/habit-tracking-hero.png",
+        "categories": ["python", "web"],
+        "slug": "habit-tracking",
+        "prod": "https://habit-tracker.discoverwitherick.tech/",
+        "repo": "https://github.com/kiminzajnr/Habit_Tracker",
+    }
     # {
     #     "name": "REST API with Flask, Docker, and SQLAlchemy",
     #     "thumb": "img/rest-api-docs.png",
